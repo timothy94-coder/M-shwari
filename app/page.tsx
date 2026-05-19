@@ -471,7 +471,7 @@ export default function Home() {
               <div className="grid md:grid-cols-2 gap-4 mt-7">
                 <Input
                   label="First name *"
-                  placeholder="e.g. Timothy"
+                  placeholder="e.g. Edwin"
                   value={form.firstName}
                   onChange={(e: any) =>
                     setForm({
@@ -483,7 +483,7 @@ export default function Home() {
 
                 <Input
                   label="Last name *"
-                  placeholder="e.g. Kemoi"
+                  placeholder="e.g. woli"
                   value={form.lastName}
                   onChange={(e: any) =>
                     setForm({
